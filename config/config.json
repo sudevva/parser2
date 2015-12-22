@@ -1,0 +1,33 @@
+{
+    "proxies": [
+        {"host":"4.30.194.111:80","port":""},
+        {"host":"23.244.68.94:80","port":""},
+        {"host":"54.183.203.161:8080","port":""},
+        {"host":"104.154.90.76:8080","port":""},
+        {"host":"54.213.155.95:3128","port":""},
+        {"host":"23.253.100.15:3128","port":""}
+    ],
+    "system": {
+        "show_log": true,
+        "charset": "UTF-8",
+        "gearmanHost": "localhost:4730",
+        "CONTROLLER_NAMESPACE": "Parsers\\",
+        "csvSeparator": "|",
+        "parseDir": "parsed/",
+        "ZendClientAdapter": "Zend\\Http\\Client\\Adapter\\Proxy"
+    },
+    "mailer": {
+        "host": "",
+        "port": "",
+        "user": "",
+        "pass": "",
+        "sender": "",
+        "groups": {
+            "product": {
+                "mailTo": [
+                    ""
+                ]
+            }
+        }
+    }
+}

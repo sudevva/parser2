@@ -1,0 +1,8 @@
+{
+    "routes": [
+        {"path": ".+//[class][\\w\\.]+/[params]", "class": "[class]", "method": "parse", "params": "[params]"},
+        {"path": ".+//.+\\.[class]\\.[\\w\\.]+/[params]", "class": "[class]", "method": "parse", "params": "[params]"},
+        {"path": "error", "class": "error", "method": "index", "params": ""},
+        {"path": "/404.html", "class": "404", "method": "", "params": ""}
+    ]
+}

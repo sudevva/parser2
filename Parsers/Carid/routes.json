@@ -1,0 +1,6 @@
+{
+    "routes": [
+        {"path": "[class].html", "class": "category", "method": "", "params": ""},
+        {"path": "[brand]/[product].html", "class": "product", "method": "", "params": ""}
+    ]
+}
